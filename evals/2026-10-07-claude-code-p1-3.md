@@ -87,3 +87,10 @@ isolated: true
 timedOut: false
 runUrl: https://github.com/timerise-ai/linkedin-boost/actions/runs/37653064164
 ---
+
+Rubric 8/8, scored from the final summary. The handover now has the four labelled lines. **Open:** names each
+task with no owner (weekly check, results, baseline, putting the site live, image, Launch, DMs) and each missing
+value (founder names, `POST_URL`, account, audience location). **Drafts:** asks for each founder's yes.
+**Assumptions:** labels the CPM, impressions and 0 to 3 sign-ups as planning numbers. **Ad account:** says nothing
+was changed. The boost runs from 07:30 on 11-04 to 11-30, 27 days at about 56 EUR a day and 389 a week, built in
+Campaign Manager. The weekly checks are 11-16, 11-23 and 11-30, and the founders stay roles.
