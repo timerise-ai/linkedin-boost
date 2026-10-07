@@ -139,8 +139,9 @@ line and your handover list both.
 9. **Audit**: traceability, 140-character hook, no task without a name, no `{{`, then add the runbook to
    the docs index: [creative.md](references/creative.md) and
    [schedule-and-owners.md](references/schedule-and-owners.md)
-10. **Hand over**, saying: every open owner and input, that each repost and DM needs its author's yes, and
-    that the planning numbers are assumptions, and that nothing was changed in the ad account.
+10. **Hand over** with four labelled lines in your final message, however short it is: **Open:** every open
+    owner and input; **Drafts:** each repost and DM needs its author's yes; **Assumptions:** the planning
+    numbers are not measurements; **Ad account:** nothing was changed.
 
 ## Reference directory
 

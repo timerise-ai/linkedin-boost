@@ -28,8 +28,9 @@ Before handing the runbook over, and whenever someone asks "what is unassigned":
 4. Write the answers in, in the forms above. Recheck the header's `Owner:` line against them.
 
 When you cannot ask, step 3 has no answer, and a guess is not one: the task's `Who` is `open`, the header's
-`**Open:**` line names it with what breaks if nobody takes it, and the handover asks for a person or a
-delete. Do not give it to someone the user named for a different task.
+`**Open:**` line names it with what breaks if nobody takes it, and the handover's **Open:** line asks for a
+person or a delete. The handover also carries **Drafts:**, **Assumptions:** and **Ad account:** lines, as
+quick-start step 10 in `SKILL.md` says. Do not give it to someone the user named for a different task.
 
 ## The date cascade
 
