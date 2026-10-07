@@ -87,3 +87,11 @@ isolated: true
 timedOut: false
 runUrl: https://github.com/timerise-ai/linkedin-boost/actions/runs/37646679427
 ---
+
+Rubric 6/8, scored from the final summary. Item 4 fails twice: the boost starts at 00:00 on 2026-11-04, 16.5
+hours after the 07:30 publish, where the skill wants 24 hours of organic engagement. The first weekly check is
+Monday 2026-11-09, day 6 of the paid run, which is inside the week the skill says nothing changes; the cascade's
+"Mondays from the second week" can be read as calendar weeks. Item 7 fails: the founders are named "Marek" and
+"Ola". Those names come from the sample runbook in `evals/prompts.md`, which is installed with the skill. And the
+weekly check and the results were given to Ben, a guess, as in the other two runs. The handover marks the
+repost drafts as needing each founder's approval.

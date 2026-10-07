@@ -87,3 +87,13 @@ isolated: true
 timedOut: false
 runUrl: https://github.com/timerise-ai/linkedin-boost/actions/runs/37646679427
 ---
+
+Rubric 7/8, scored from the final summary. The post was saved as given, the boost starts the morning after the
+07:30 publish, the run is 27 days at a lifetime 1,500 EUR (55.6 EUR a day, 389 a week), the build goes through
+Campaign Manager rather than the Boost button, the founders stay "Founder 1" and "Founder 2" with
+`repost-founder1` and `repost-founder2`, the runbook is indexed, and the handover asks for each founder's yes and
+lists what to confirm. Item 7 fails: the prompt gave no one the weekly check or the results, and the agent
+assigned them itself ("you only named Ana and Ben for some tasks, so I assigned the rest"). `inputs.md` says a
+role nobody was given has no default, but nothing in the skill says what to do when the run cannot ask, so a
+guess filled the gap. Not seen in the summary, and so not scored against it: the section numbers and the weekly
+check dates.
