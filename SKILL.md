@@ -12,9 +12,11 @@ description: >
   first comment, founder repost, repost with your thoughts, DM to our network, BOOST-01, utm_content=boost-01,
   "who owns this task", "move the post to tomorrow". Carries the trade-off against a Website visits
   campaign, the build steps the Boost button hides, the date cascade, and the rule that no task is left
-  without a person. Takes the path to the blog post's markdown file as a required argument. LinkedIn only.
-  Not the Website visits campaign (ad-campaign-runbook), not a personal-profile post writer, not an ads
-  API client.
+  without a person. Takes the path to the blog post's markdown file as a required argument and stops
+  without it. Written for a Next.js App Router marketing site whose posts are markdown in the repository;
+  the host's people, conversion vocabulary, languages and runbook folder are the seam. LinkedIn only. Not
+  the Website visits campaign (ad-campaign-runbook), not a personal-profile post writer, not an ads API
+  client.
 ---
 
 # LinkedIn boost runbook: one Company Page post, one boost
@@ -35,7 +37,11 @@ is missing, and ask. Never pick a post. If the `ad-campaign-runbook` skill is in
 `assets/preflight.py` on the post; otherwise check those four things by hand.
 
 The main runbook (from `ad-campaign-runbook`) is optional. With it, the boost runbook is a delta that cites
-its audience, honesty constraints and conversions. Without it, those go into section 9: [inputs.md](references/inputs.md).
+its audience, honesty constraints and conversions. Without it, those go into section 9:
+[inputs.md](references/inputs.md).
+
+The post file, the host's own repository and its live site are inputs, not external services: a post the
+prompt carries is saved where the prompt says and used like any other.
 
 ## When to use
 
@@ -45,8 +51,9 @@ its audience, honesty constraints and conversions. Without it, those go into sec
 
 ## When NOT to use
 
-- **A Website visits campaign with link ads to the post**: `ad-campaign-runbook`. Never both in one month
-  on one campaign group cap.
+- **A Website visits campaign with link ads to the post**: the sibling
+  [`ad-campaign-runbook`](https://github.com/timerise-ai/ad-campaign-runbook), whose main runbook this one is
+  a delta of. Never both in one month on one campaign group cap.
 - **A post on a personal profile**: the author's own posting skill (a voice skill, if installed). This
   skill drafts repost texts and hands them to the author.
 - **Thought Leader Ads, Meta, Google or X**: not covered, see [provenance.md](references/provenance.md).
@@ -136,5 +143,4 @@ its audience, honesty constraints and conversions. Without it, those go into sec
 | The document to produce | template, sections, delta runbook, results row, repost texts | [runbook-template.md](references/runbook-template.md) |
 | Why it is this way | provenance, fixed, kept deliberately, added, not covered | [provenance.md](references/provenance.md) |
 
-Sibling of [`ad-campaign-runbook`](https://github.com/timerise-ai/ad-campaign-runbook), which writes the
-main post campaign runbook this one is a delta of.
+Part of the [Timerise Skills](https://github.com/timerise-ai/skills) index, which lists the sibling skills.

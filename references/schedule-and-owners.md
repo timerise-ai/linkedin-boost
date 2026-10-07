@@ -1,8 +1,8 @@
 # Schedule and owners: a person on every line, and dates that move together
 
 A runbook whose tasks belong to "Marketing" gets read, agreed with and not done. And a runbook whose dates
-were typed one by one goes stale the first time the publish date moves. Both happened to the runbook this
-skill was built from, the same day it was written.
+were typed one by one goes stale the first time the publish date moves. The forms and the cascade below
+hold both.
 
 ## Every task has a named person
 
@@ -21,7 +21,7 @@ A team, a department or "we" is not an owner. Neither is "the author" when the a
 Before handing the runbook over, and whenever someone asks "what is unassigned":
 
 1. List every task with no name: schedule rows, checklist items, sections with no `Owner:` line, rules that
-   imply work ("a new conversion → match it").
+   imply work ("a new conversion: match it").
 2. For each, say in one or two sentences what it is, how long it takes, and what breaks if nobody does it.
 3. Ask the user, in batches of up to four, for a person or **delete**. Deleting is a valid answer: a task
    nobody will do is better gone than left as decoration.

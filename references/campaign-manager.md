@@ -15,9 +15,9 @@ not read the post. **Boost from Campaign Manager**, where every setting below is
 
 ## The steps
 
-1. **Campaign Manager → the ad account → the campaign group** for the programme. Check the group cap covers
-   the boost budget for the month and that no Website visits campaign for this post is running.
-2. **Create → Campaign**, classic setup. **Decline "Accelerate"** or any AI-assisted setup. Objective
+1. **In Campaign Manager, open the ad account, then the campaign group** for the programme. Check the group
+   cap covers the boost budget for the month and that no Website visits campaign for this post is running.
+2. **Create, then Campaign**, classic setup. **Decline "Accelerate"** or any AI-assisted setup. Objective
    **Engagement**.
 3. Name: `POST | <short slug> | BOOST | <yyyy-mm>`.
 4. Audience: load the saved audience template from the main runbook. If it does not exist yet, build it from
@@ -31,8 +31,8 @@ not read the post. **Boost from Campaign Manager**, where every setting below is
    Note the suggested range in the runbook: it is the first real number against the CPM assumption.
 8. Conversion tracking: tick the conversions the main runbook created. Say in the runbook that they report
    **view-through only**, because the ad itself has no link.
-9. **Ads → Browse existing content** → pick the Company Page post. Name the ad `BOOST-01`, the same as the
-   comment link's `utm_content`.
+9. **Ads, then Browse existing content**, and pick the Company Page post. Name the ad `BOOST-01`, the same
+   as the comment link's `utm_content`.
 10. Review, then Launch. Creating the campaign accepts the advertising terms, so the account owner clicks it.
     **Do not edit the post** while it is sponsored: an edit sends it back to review.
 

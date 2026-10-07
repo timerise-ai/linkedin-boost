@@ -64,6 +64,8 @@ The founders **repost with their own text** ("Repost with your thoughts"), not p
 | Drafted, not published | The person's voice skill writes the draft if one is installed; the person says yes or rewrites it. Never published on someone's behalf |
 | No claim beyond the post | No client, number or result that is not in the blog post |
 
+The link in each founder's first comment, one `<name>` per founder:
+
 ```
 <POST_URL>?utm_source=linkedin&utm_medium=organic&utm_campaign=post-<short slug>&utm_content=repost-<name>
 ```

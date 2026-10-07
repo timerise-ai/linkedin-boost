@@ -26,4 +26,8 @@ main runbook from `ad-campaign-runbook`.
   unassigned-tasks pass, the date cascade and the before-launch checklist.
 - `references/inputs.md`, `references/adaptation.md`,
   `references/runbook-template.md` and `references/provenance.md`.
-- `evals/prompts.md`.
+- `README.md` in the section order of the skill standard, `CLAUDE.md` with the
+  editing conventions, and `LICENSE`.
+- `evals/prompts.md` with three prompts: a post to boost, a request with no
+  post, and a runbook whose publish date moves.
+- `.github/workflows/agent-eval.yml`, the caller of the index's eval workflow.

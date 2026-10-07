@@ -10,7 +10,7 @@ Manager and buy different things.
 | Ad | Single image ad with a link | The existing Company Page post: text and image, link in the first comment |
 | Objective | Website visits | **Engagement** |
 | What a paid click buys | A visit to the blog post | An expanded post or an opened image. Not a site visit |
-| Path to the conversion | Ad → blog post → conversion page | Post → first comment → blog post → conversion page |
+| Path to the conversion | Ad, then blog post, then conversion page | Post, then first comment, then blog post, then conversion page |
 | Social proof | None, every ad starts at zero | Likes and comments collected organically carry into the paid impressions |
 | What it teaches | Which hook earns a click | Whether the audience engages with the topic at all, at a lower cost per impression |
 

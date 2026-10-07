@@ -1,12 +1,12 @@
 # Provenance
 
-The ledger for this skill: what the source runbook got wrong and how the procedure holds it, what was kept on
-purpose, and what was designed here. Read it before simplifying anything.
+The ledger for this skill: what the audit changed and how the procedure holds it, what was kept on purpose,
+and what was designed here. Read it before simplifying anything.
 
-The source was one boost runbook for a B2B marketing site, a delta of a Website visits runbook written with
-`ad-campaign-runbook`. It was written on 2026-10-06 and revised on 2026-10-07 while its tasks were assigned
-and its publish date moved by one day. **It had not launched when this skill was written, so every
-performance number here is a planning assumption and is labelled as one.**
+The earlier implementation was one boost runbook for a B2B marketing site, a delta of a Website visits
+runbook written with `ad-campaign-runbook`. It was written on 2026-10-06 and revised on 2026-10-07 while its
+tasks were assigned and its publish date moved by one day. **It had not launched when this skill was
+written, so every performance number here is a planning assumption and is labelled as one.**
 
 Four entries below are fixed defects, five are deliberate keeps, three are additions.
 
@@ -15,9 +15,9 @@ Four entries below are fixed defects, five are deliberate keeps, three are addit
 ### 1. Owners that were teams
 
 The header named "Marketing" and "Sales", and no task had a person. Before launch the user had to ask for the
-unassigned tasks and go through thirteen of them one by one: eleven got a person, two were deleted as
-nobody's work. **Held by:** the
-hard rule, the owner forms and the unassigned-tasks pass in [schedule-and-owners.md](schedule-and-owners.md).
+unassigned tasks and go through them one by one: most got a person, a few were deleted as nobody's work.
+**Held by:** the hard rule, the owner forms and the unassigned-tasks pass in
+[schedule-and-owners.md](schedule-and-owners.md).
 
 ### 2. A moved date that needed a manual cascade
 
@@ -51,12 +51,13 @@ build starts in Campaign Manager from Browse existing content, in [campaign-mana
 
 ## Added
 
-Designed in this skill and never run in the source.
+Designed in this skill and never run in the earlier implementation.
 
-- The placeholders and the generic roles. The source used the host's own people, account and currency.
-- Section 9, shared setup without a main runbook. The source always had one.
-- `BOOST-02` added to the same campaign as a second ad. The source said only "boost it as `BOOST-02` with the
-  remaining budget"; the same-campaign mechanics are an assumption to confirm in the UI.
+- The placeholders and the generic roles. The earlier implementation used the host's own people, account
+  and currency.
+- Section 9, shared setup without a main runbook. The earlier implementation always had one.
+- `BOOST-02` added to the same campaign as a second ad. The earlier implementation said only "boost it as
+  `BOOST-02` with the remaining budget"; the same-campaign mechanics are an assumption to confirm in the UI.
 
 ## Not covered
 
