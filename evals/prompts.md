@@ -34,18 +34,61 @@ prompts:
       owner given, so the agent asks or leaves them as open inputs, never "Marketing"); repost texts drafted
       in Polish and marked as needing each founder's yes; no claim beyond the post (no "guaranteed", no
       invented numbers).
+    stack: No data store
   - prompt: |
       Write a boost runbook for our latest blog post, 1,000 EUR this month.
     expect: |
       No post path given: the agent stops and asks for the file, and does not pick the latest post.
+    stack: No data store
   - prompt: |
-      We moved the Company Page post in docs/runbooks/linkedin-boost-<slug>.md from Wednesday to Thursday. Update the runbook.
+      Save the runbook below as docs/runbooks/linkedin-boost-phone-confirmations.md. We moved the Company Page post from Wednesday to Thursday, same time. Update the runbook.
+
+      # Runbook: LinkedIn Boost Post for "Stop confirming bookings by phone"
+
+      **Type:** Short campaign runbook (one boosted Company Page post)
+      **Budget:** 1,500 EUR for November 2026, lifetime, ends 2026-11-30
+      **Source content:** `content/blog/en/stop-confirming-bookings-by-phone.md`
+      **Owner:** Ana (post, comment, first 90 minutes, build); Ben (tracking, weekly check, results)
+      **Status:** Draft, not launched
+      **Last updated:** 2026-10-20
+
+      ## 2. Budget and schedule
+
+      | Date | What | Who |
+      | :-- | :-- | :-- |
+      | Mon 2026-11-02 | Image, post text and comment ready; blog post review | Ana |
+      | Wed 2026-11-04, 7:30 | Company Page post, first comment with the link | Ana |
+      | Thu 2026-11-05 | Boost starts (build step 6 start date); first founder repost; DMs start | Ana, Marek |
+      | Mon 2026-11-09 | Second founder repost | Ola |
+      | Mon 2026-11-16, 11-23, 11-30 | Weekly check | Ben |
+      | Mon 2026-11-30 | Boost ends 23:59; results row | Ben |
+
+      26 days at 1,500 EUR is about **58 EUR a day**, about 404 EUR a week. Use a **lifetime** budget.
+
+      ## 4. Setting up the boost
+
+      **Owner: Ana.** Step 6: lifetime 1,500 EUR from 2026-11-05 to 2026-11-30 23:59.
+
+      ## 6. Weekly check (Mondays, 15 minutes)
+
+      **Owner: Ben.** Spend under 60% of pace (about 404 EUR a week): raise the bid to the middle of the suggested range.
     expect: |
-      The date cascade runs: boost start, build step 6 start date, the first repost if it fell on the
-      publish day, DM start, run days, daily and weekly pace, Status and Last updated; old dates grepped.
+      The date cascade runs: publish Thu 2026-11-05, boost start and build step 6 on 2026-11-06, the first
+      repost and the DM start move with it, the Monday rows stay; run days 25, about 60 EUR a day and 420 a
+      week in sections 2 and 6; Last updated is today; no 11-04 or old pace left.
+    stack: No data store
 ---
 
 # Prompts
 
-What an operator types after installing the skill, in their words. The first prompt is the agent eval; the
-second checks the required argument; the third checks the date cascade on an existing runbook.
+What an operator types after installing this skill, in their own words. An agent eval installs the skill
+into an empty Next.js app, gives the agent one of these prompts and no further help, then type-checks and
+builds the result; the first prompt runs on every release. This skill writes a runbook rather than code, so
+each prompt carries what it works on, and the checks only confirm the agent left the app intact: what a run
+shows is in its notes, scored against the hard rules, with `expect` saying what a faithful run does. The
+first prompt is a post that should get a boost runbook, the second names no post and scores whether the
+agent stops and asks, and the third carries an existing runbook whose publish date moves, and scores the
+date cascade. The results are the other files in this folder. Section 10 of
+[STANDARD.md](https://github.com/timerise-ai/skills/blob/main/STANDARD.md) says how a run is made. The
+prompts and the newest runs are on [the skill's page](https://timerise.ai/skills/linkedin-boost) on
+timerise.ai.
