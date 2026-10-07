@@ -17,6 +17,7 @@ main runbook.
 **Goal:** {{GOAL}}
 **Owner:** {{OWNERS}}
 **Status:** Draft, not launched
+**Open:** {{OPEN_ITEMS}}
 **Last updated:** {{TODAY}}
 
 > The full playbook (offer, honesty rules, audience, conversions, Campaign Manager basics) is

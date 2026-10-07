@@ -24,8 +24,8 @@ not read the post. **Boost from Campaign Manager**, where every setting below is
    the main runbook's audience section and save it. Attach the exclusions. **Untick "Enable audience
    expansion".**
 5. Format **Single image ad**. Placement: **untick LinkedIn Audience Network**.
-6. Budget **lifetime**, the month's budget, start the day after the organic publish, end on the last day of
-   the run at 23:59.
+6. Budget **lifetime**, the month's budget, start the day after the organic publish at the publish time
+   (never 00:00), end on the last day of the run at 23:59.
 7. Bidding: optimisation goal **Engagement**, **Maximum delivery** for the first week. Switch to **Manual
    bidding** at the low end of the suggested range only if the CPM runs above the high planning value.
    Note the suggested range in the runbook: it is the first real number against the CPM assumption.

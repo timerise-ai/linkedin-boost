@@ -16,7 +16,7 @@ repository. Nothing executes here.
 The skill was written by the engineer who has shipped this work; the earlier implementation it was audited
 against was a boost runbook for a B2B marketing site, written as a delta of a Website visits runbook.
 `references/provenance.md` is the ledger of that audit: four fixed defects with how the procedure holds each
-one, five deliberate keeps with the reason each is safe, and three additions designed here that have never
+one, five deliberate keeps with the reason each is safe, and four additions designed here that have never
 been run. That file is the rationale layer: read it before "simplifying" anything.
 
 ## Structure

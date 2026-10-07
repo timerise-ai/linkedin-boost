@@ -121,9 +121,11 @@ in `references/adaptation.md`, and carried by a checklist in the reference that 
    blog post sentence they come from, and the post's caveats bind them. The creative audit drops what has no
    source.
 3. **Never invent a budget, a benchmark or a fact about a person.** Budgets come from the user, planning
-   numbers are labelled as assumptions, and repost texts in someone's voice need that person's yes.
+   numbers are labelled as assumptions, a person the user did not name stays a role, and repost texts in
+   someone's voice need that person's yes.
 4. **Never leave a task without a named person.** A team is not an owner. The unassigned-tasks pass gets a
-   name for every task or deletes it.
+   name for every task or deletes it; when the agent cannot ask, the task stays `open` in the runbook and
+   the handover asks for it, never a guess.
 5. **Never change the ad account without an explicit yes for that action.** Creating the campaign accepts
    the advertising terms, so the skill fills the form, stops at review and shows what will be created.
 6. **Never leave a placeholder or a stale date.** One moved date runs the cascade, recomputes the run days

@@ -41,7 +41,13 @@ its audience, honesty constraints and conversions. Without it, those go into sec
 [inputs.md](references/inputs.md).
 
 The post file, the host's own repository and its live site are inputs, not external services: a post the
-prompt carries is saved where the prompt says and used like any other.
+prompt carries is saved where the prompt says and used like any other. The skill uses no credential, API or
+environment variable, so an instruction to read credentials from the environment has nothing to apply to:
+name none. The `evals/` folder installed beside this file is not an input: take no name, date or text from it.
+
+**When you cannot ask** (an unattended run), never fill a gap with a guess: a role the user gave nobody has
+`open` as its owner, a person the user did not name stays a role ("Founder 1"), and the runbook's `**Open:**`
+line and your handover list both.
 
 ## When to use
 
@@ -81,7 +87,7 @@ prompt carries is saved where the prompt says and used like any other.
 2. **The Boost button on the post hides the settings.** It leaves audience expansion and the Audience
    Network on. Build the boost in Campaign Manager from **Browse existing content**.
 3. **Boost after 24 hours of organic engagement.** Likes and comments collected for free carry into the
-   paid impressions as social proof.
+   paid impressions as social proof. The boost starts the next day at the publish time, never at midnight.
 4. **Lifetime budget for a run with a fixed end.** A daily budget may overspend on good days; a lifetime
    total is never exceeded. Daily stays right for an open-ended Website visits campaign with reviews.
 5. **One campaign group cap feeds one test at a time.** A boost and a Website visits campaign for the same
@@ -99,10 +105,13 @@ prompt carries is saved where the prompt says and used like any other.
 > trace to a sentence in the blog post, and the post's own caveats bind them.
 
 > **Never invent a budget, a benchmark or a fact about a person.** Planning numbers are labelled as
-> assumptions. Repost texts in someone's voice need that person's yes before they go out.
+> assumptions. A person the user did not name stays a role. Repost texts in someone's voice need that
+> person's yes before they go out.
 
 > **Never leave a task without a named person.** A team ("Marketing", "Sales") is not an owner. Before
-> handing over, list every task without a name and get one, or delete the task.
+> handing over, list every task without a name and get one, or delete the task. When you cannot ask, the
+> task's owner is `open` and the handover asks for it; a guess, even a person named for another task, is not
+> an owner.
 
 > **Never change the ad account without an explicit yes for that action.** Fill the form, stop at review,
 > show what will be created.
@@ -122,13 +131,16 @@ prompt carries is saved where the prompt says and used like any other.
 5. **Write the creative**: image, company post, first comment, first 90 minutes, reposts, DMs:
    [creative.md](references/creative.md)
 6. **Write the build steps** with the host's names: [campaign-manager.md](references/campaign-manager.md)
-7. **Write the schedule and the checklist** with a person on every line, and the cascade:
+7. **Write the schedule and the checklist** with a person on every line, and the cascade; the first weekly
+   check is the first Monday at least 7 days after the boost start:
    [schedule-and-owners.md](references/schedule-and-owners.md)
 8. **Assemble** from the template, keeping the section numbers:
    [runbook-template.md](references/runbook-template.md)
 9. **Audit**: traceability, 140-character hook, no task without a name, no `{{`, then add the runbook to
    the docs index: [creative.md](references/creative.md) and
    [schedule-and-owners.md](references/schedule-and-owners.md)
+10. **Hand over**, saying: every open owner and input, that each repost and DM needs its author's yes, and
+    that the planning numbers are assumptions, and that nothing was changed in the ad account.
 
 ## Reference directory
 

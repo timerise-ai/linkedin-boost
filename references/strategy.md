@@ -64,7 +64,8 @@ planning value.
 
 ## Weekly decision rules
 
-Write them into the runbook with the host's numbers before launch. Nothing changes in the first week.
+Write them into the runbook with the host's numbers before launch. Nothing changes in the first paid week: the first check is
+the first Monday at least 7 days after the boost start.
 
 | Signal | Action |
 | :-- | :-- |

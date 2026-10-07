@@ -43,6 +43,12 @@ Skip any the user already gave.
 | Ad account | "Which account, its currency, which campaign group?" | From the main runbook |
 | Where conversions land | "Where do new conversions show up, and what follows from one?" | From the main runbook |
 
+**When you cannot ask** (the run is unattended, or the user said not to ask), the defaults above still hold:
+an input with no default stays open. A role nobody was given gets `open` as its owner, not a person named
+for another task; a person the user did not name stays a role ("Founder 1", `repost-founder-1`); an unknown
+value (the live URL, the account) is written as open, not invented. Each goes into `{{OPEN_ITEMS}}` and the
+handover. Names come from the user only, never from this skill's examples or its `evals/` folder.
+
 Never ask for credentials, and never sign in on the user's behalf. Reading a signed-in session is fine;
 creating or changing anything needs an explicit yes for that action.
 
@@ -62,6 +68,7 @@ finished runbook is a defect.
 | `{{TODAY}}` | today, ISO | 2026-10-07 |
 | `{{BUDGET}}`, `{{CURRENCY}}`, `{{RUN_MONTH}}` | user input | 3,000, PLN, October 2026 |
 | `{{GOAL}}` | the conversion and what follows from it | briefs created, and prototypes sent from them |
+| `{{OPEN_ITEMS}}` | every role the user gave nobody, every person not named, every value not given, each with what it blocks; `none` when nothing is open | weekly check and results owner; both founders' names; the live URL |
 | `{{OWNERS}}` | the header form in [schedule-and-owners.md](schedule-and-owners.md) | Ana Kim (post, boost); Ben Ode (tracking) |
 | `{{BOOST_START}}`, `{{BOOST_END}}` | the publish date (user input) and the date cascade | 2026-10-09, 2026-10-31 |
 | `{{SCHEDULE_TABLE}}` | [schedule-and-owners.md](schedule-and-owners.md), with a `Who` column | |
@@ -91,3 +98,4 @@ finished runbook is a defect.
 - [ ] Budget, currency and month came from the user
 - [ ] Every role has a named person, or the task was deleted
 - [ ] Every open input is listed as open in the runbook, not silently filled
+- [ ] `**Open:**` in the header lists every open role, name and value, or says `none`

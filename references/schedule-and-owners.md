@@ -27,6 +27,10 @@ Before handing the runbook over, and whenever someone asks "what is unassigned":
    nobody will do is better gone than left as decoration.
 4. Write the answers in, in the forms above. Recheck the header's `Owner:` line against them.
 
+When you cannot ask, step 3 has no answer, and a guess is not one: the task's `Who` is `open`, the header's
+`**Open:**` line names it with what breaks if nobody takes it, and the handover asks for a person or a
+delete. Do not give it to someone the user named for a different task.
+
 ## The date cascade
 
 One date drives the others. When the publish date moves, everything below moves in the same edit.
@@ -36,11 +40,11 @@ One date drives the others. When the publish date moves, everything below moves 
 | Preparation | Before the publish date; image, post text, comment, and the blog post review |
 | **Organic publish** | The driver. A weekday, early morning in the audience's timezone (7:00 to 8:30) |
 | First comment with the link | Within one minute of the publish |
-| Boost start | **Publish + 1 day**, after 24 hours of organic engagement. Also the start date in build step 6 |
+| Boost start | **Publish + 1 day, at the publish time**, after 24 hours of organic engagement; never 00:00 of the next day. Also the start date and time in build step 6 |
 | First founder repost | Not on the publish day; the day of the boost start or later |
 | Further reposts | A few days apart, so the topic stays in the networks for about two weeks |
 | DMs | From day 2, the boost start, onward |
-| Weekly checks | Mondays from the second week; none in the first week |
+| Weekly checks | The first Monday at least 7 days after the boost start, then every Monday; none in the first paid week |
 | Boost end | Unchanged unless the user moves it: the end of the month or run |
 | Results | The boost end date |
 
@@ -79,5 +83,5 @@ Items already done when the runbook is written are ticked, with the date.
 - [ ] Every task section opens with `**Owner: <Name>**`
 - [ ] Every checklist item starts with a name
 - [ ] No checklist item repeats a build step
-- [ ] Unassigned-tasks pass done; deleted tasks are gone, not commented out
+- [ ] Unassigned-tasks pass done; deleted tasks are gone, not commented out; unanswered ones are `open`, not guessed
 - [ ] Dates follow the cascade; run days, daily and weekly pace match the dates

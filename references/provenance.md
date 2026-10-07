@@ -8,7 +8,7 @@ runbook written with `ad-campaign-runbook`. It was written on 2026-10-06 and rev
 tasks were assigned and its publish date moved by one day. **It had not launched when this skill was
 written, so every performance number here is a planning assumption and is labelled as one.**
 
-Four entries below are fixed defects, five are deliberate keeps, three are additions.
+Four entries below are fixed defects, five are deliberate keeps, four are additions.
 
 ## Fixed
 
@@ -58,6 +58,11 @@ Designed in this skill and never run in the earlier implementation.
 - Section 9, shared setup without a main runbook. The earlier implementation always had one.
 - `BOOST-02` added to the same campaign as a second ad. The earlier implementation said only "boost it as
   `BOOST-02` with the remaining budget"; the same-campaign mechanics are an assumption to confirm in the UI.
+- Open owners when the agent cannot ask, found by the 0.1.0 agent evals: all three unattended runs filled the
+  weekly check and the results with a person named for another task, and one took founder names from the
+  sample runbook in `evals/`. A role nobody was given is now `open`, an unnamed person stays a role, and the
+  header's `**Open:**` line and the handover list both. The earlier implementation was written with its
+  owners in the room.
 
 ## Not covered
 
