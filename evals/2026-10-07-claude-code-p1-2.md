@@ -87,3 +87,11 @@ isolated: true
 timedOut: false
 runUrl: https://github.com/timerise-ai/linkedin-boost/actions/runs/37650064582
 ---
+
+Rubric 8/8, scored from the final summary. The boost runs from 07:30 on 2026-11-04 to 2026-11-30 23:59 on a
+lifetime 1,500 EUR: 27 days, about 56 EUR a day and 389 a week. It is built in Campaign Manager. The weekly
+checks are 11-16, 11-23 and 11-30, and a Website visits campaign waits for December. The weekly check, the
+results, the founders' names, the live URL and the account are all `open` rather than guessed: founders stay
+"Founder 1" and "Founder 2", and links use `SITE` until the domain is known. The handover lists the open items,
+asks for each founder's yes, labels the planning numbers and says nothing was changed in the ad account. Not
+seen in the summary: the section numbers.
