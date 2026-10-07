@@ -5,6 +5,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.1] - 2026-10-07
+
+Fix release, from scoring the prompt-1 agent eval runs against 0.1.0.
+
+### Changed
+
+- A role the user gave nobody is `open` when the agent cannot ask, never a person named for another task, and
+  a person the user did not name stays a role: `SKILL.md` (a new paragraph, hard rules 3 and 4),
+  `references/inputs.md`, `references/schedule-and-owners.md`, and the README's non-negotiables 3 and 4.
+- The runbook header carries a new `**Open:**` line, `{{OPEN_ITEMS}}` in `references/runbook-template.md`
+  and `references/inputs.md`.
+- `SKILL.md` says the skill uses no credential or environment variable, and that the installed `evals/`
+  folder is not an input.
+- The boost starts the day after the publish at the publish time, never at 00:00, and the first weekly check
+  is the first Monday at least 7 days after the boost start: `SKILL.md`, `references/schedule-and-owners.md`,
+  `references/campaign-manager.md`, `references/strategy.md`.
+- A tenth quick-start step names what the handover says.
+- `references/provenance.md` records the open-owner rule as a fourth addition, found by the evals.
+
 ## [0.1.0] - 2026-10-07
 
 Initial release of the `linkedin-boost` skill: the runbook for boosting one
